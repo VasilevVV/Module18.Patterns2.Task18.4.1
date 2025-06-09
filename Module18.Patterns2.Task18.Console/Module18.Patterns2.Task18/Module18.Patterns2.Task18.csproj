@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="YoutubeExplode">
+      <HintPath>..\..\YoutubeDownloaderRU\YoutubeExplode.dll</HintPath>
+    </Reference>
+    <Reference Include="YoutubeExplode.Converter">
+      <HintPath>..\..\YoutubeDownloaderRU\YoutubeExplode.Converter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
